@@ -1,0 +1,23 @@
+{
+  "name": "iot-node-simulation",
+  "version": "1.0.0",
+  "description": "Simulates an IoT microservice receiver that handles incomming patient data",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipe4253/iot-node-simulation.git"
+  },
+  "author": "Felipe Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipe4253/iot-node-simulation/issues"
+  },
+  "homepage": "https://github.com/felipe4253/iot-node-simulation#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
