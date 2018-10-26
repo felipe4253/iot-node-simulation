@@ -1,0 +1,172 @@
+{
+	"id": "6d130ec4-c0b4-a9ae-d76b-e4e9b00755ab",
+	"name": "iot-simulation",
+	"description": "",
+	"order": [
+		"f26d50eb-9428-b72d-cbf3-02c9aa031e43",
+		"fbc3a71f-0e28-346c-dd8e-3801b0905a6e",
+		"02242e5b-4cd0-983a-be0e-de4c3ea164ec"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1540509048414,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "02242e5b-4cd0-983a-be0e-de4c3ea164ec",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/v1/monitor",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "systolicBloodPressure",
+					"value": "12",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "diastolicBloodPressure",
+					"value": "8",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "heartBeatsPerMinute",
+					"value": "250",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1540512365685,
+			"name": "high-heart-frequency",
+			"description": "",
+			"collectionId": "6d130ec4-c0b4-a9ae-d76b-e4e9b00755ab",
+			"responses": []
+		},
+		{
+			"id": "f26d50eb-9428-b72d-cbf3-02c9aa031e43",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/v1/monitor",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "6d130ec4-c0b4-a9ae-d76b-e4e9b00755ab",
+			"data": [
+				{
+					"key": "systolicBloodPressure",
+					"value": "12",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "diastolicBloodPressure",
+					"value": "8",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "heartBeatsPerMinute",
+					"value": "70",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "healthy-patient",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1540512295566,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "fbc3a71f-0e28-346c-dd8e-3801b0905a6e",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/v1/monitor",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "6d130ec4-c0b4-a9ae-d76b-e4e9b00755ab",
+			"data": [
+				{
+					"key": "systolicBloodPressure",
+					"value": "12",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "diastolicBloodPressure",
+					"value": "8",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "heartBeatsPerMinute",
+					"value": "70",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "high-blood-pressure",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1540512295566,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
